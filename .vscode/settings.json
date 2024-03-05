@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        "socket.h": "c",
+        "string_view": "c",
+        "array": "c",
+        "string": "c",
+        "ipc.h": "c",
+        "usm_entete.h": "c",
+        "*.txt": "c",
+        "*.tcc": "c",
+        "ratio": "c",
+        "system_error": "c",
+        "functional": "c",
+        "tuple": "c",
+        "type_traits": "c",
+        "utility": "c"
+    }
+}

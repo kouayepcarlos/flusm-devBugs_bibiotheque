@@ -1,0 +1,1 @@
+cmd_/home/jocelyn/Bureau/flusm-devBugs/Module/usm_lkmRM.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o /home/jocelyn/Bureau/flusm-devBugs/Module/usm_lkmRM.ko /home/jocelyn/Bureau/flusm-devBugs/Module/usm_lkmRM.o /home/jocelyn/Bureau/flusm-devBugs/Module/usm_lkmRM.mod.o;  true

@@ -1,0 +1,22 @@
+Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+Ubuntu clang version 14.0.0-1ubuntu1.1
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Performing C SOURCE FILE Test HAS_NO9099 failed with the following output:
+Change Dir: /home/jocelyn/Bureau/flusm-devBugs/Dependencies/syscall_intercept/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_55f4f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_55f4f.dir/build.make CMakeFiles/cmTC_55f4f.dir/build
+gmake[1]: Entering directory '/home/jocelyn/Bureau/flusm-devBugs/Dependencies/syscall_intercept/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_55f4f.dir/src.c.o
+/usr/bin/clang -DHAS_NO9099  -Wno-c90-c99-compat -MD -MT CMakeFiles/cmTC_55f4f.dir/src.c.o -MF CMakeFiles/cmTC_55f4f.dir/src.c.o.d -o CMakeFiles/cmTC_55f4f.dir/src.c.o -c /home/jocelyn/Bureau/flusm-devBugs/Dependencies/syscall_intercept/build/CMakeFiles/CMakeTmp/src.c
+warning: unknown warning option '-Wno-c90-c99-compat'; did you mean '-Wno-c99-compat'? [-Wunknown-warning-option]
+1 warning generated.
+Linking C executable cmTC_55f4f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55f4f.dir/link.txt --verbose=1
+/usr/bin/clang -rdynamic CMakeFiles/cmTC_55f4f.dir/src.c.o -o cmTC_55f4f 
+gmake[1]: Leaving directory '/home/jocelyn/Bureau/flusm-devBugs/Dependencies/syscall_intercept/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }

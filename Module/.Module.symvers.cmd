@@ -1,0 +1,1 @@
+cmd_/home/jocelyn/Bureau/flusm-devBugs/Module/Module.symvers := sed 's/\.ko$$/\.o/' /home/jocelyn/Bureau/flusm-devBugs/Module/modules.order | scripts/mod/modpost -m -a  -o /home/jocelyn/Bureau/flusm-devBugs/Module/Module.symvers -e -i Module.symvers   -T -
